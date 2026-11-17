@@ -37,4 +37,30 @@ Fluxo seguido: ideia → protótipo → código → ajustes → entrega
 
 ---
 
-## Etapa 2 — _(próxima)_
+## Etapa 2 — Páginas O Projeto, Funcionalidades, Tecnologias, Equipe e Documentação
+
+### Prompt enviado
+
+> Agora faça as outras 5 páginas (O Projeto, Funcionalidades, Tecnologias, Equipe e Documentação), usando como base o conteúdo da monografia e da ficha do PFC.
+
+### O que a IA gerou
+
+- **O Projeto:** problema, pergunta de pesquisa, objetivo geral e específicos, escopo (o que entra e o que fica fora) e cronograma em linha do tempo — textos tirados da monografia e da ficha
+- **Funcionalidades:** abas por perfil (Aluno, Professor, Administrador) usando `useState`, regras de gamificação com exemplo de cálculo e as 4 conquistas
+- **Tecnologias:** diagrama das camadas (front-end → API REST → back-end → banco), ferramentas e cartões de segurança/LGPD
+- **Equipe:** cartões com avatar de iniciais (gerado por uma função), link do GitHub e o orientador
+- **Documentação:** links (repositório, Figma, este site), perguntas frequentes em acordeão com `useState` e as referências em ABNT
+- Componente `CabecalhoPagina` reaproveitado no topo de todas as páginas internas
+- Todos os textos novos adicionados em `src/data/site.js`
+
+### Ajustes feitos durante a geração
+
+- A fórmula do nível (XP ÷ 100 + 1) dava a entender 3,7 + 1 no exemplo de 370 XP. Foi deixado explícito que é **divisão inteira** (370 ÷ 100 = 3, nível 4).
+- A resposta sobre IA no FAQ afirmava "dentro do limite de 40%"; foi trocada por uma frase que não afirma um percentual.
+
+### Minha revisão ✍️
+
+- O que eu li e entendi do código:
+- O que eu testei:
+- O que pedi para mudar:
+- O que aprendi:
